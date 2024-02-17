@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+}
+.bg-img {
+    background-image: url("./images/qatar.jpeg");
+    background-size: cover; 
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    padding-left: 8rem;
+    flex-wrap: wrap;
+    height: 45vh;
+    color: white;
+
+}
+.header{
+    margin-top: 11.8rem;
+}
+.desc {
+  margin-top: 15rem;
+}
+.searchbar {
+  margin-top: 6rem;
+  border-radius: 50px;
+}
+.icon1{
+    padding-left: 10px;
+    color: rgba(64,181,188,255);
+    
+}
+.search-conatiner {
+    display: flex;
+    align-items: center;
+    border: 2px solid grey; 
+    border-radius: 50px; 
+    width: 30rem;
+}
+.search {
+  outline: none;
+  border: none;
+ padding: 10px;
+  flex: 1;
+  margin-left: 10px;
+}
+button {
+  background: none;
+  border: none;
+  padding-right: 15px;
+  color: #625063;
+}
+.card-container {
+  margin-top: 3rem;
+  color: whitesmoke;
+}
+.card1 {
+  width: 10rem;
+  height: 8rem;
+  text-align: center;
+  border-radius: 15px;
+  cursor: pointer;
+  background-color: #746ce0;
+}
+.card2 {
+  background-color: #75c4ca;
+  width: 10rem;
+  height: 8rem;
+  text-align: center;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.card3 {
+  width: 10rem;
+  height: 8rem;
+  text-align: center;
+  border-radius: 15px;
+  cursor: pointer;
+  background-color: #d36b9c;
+}
+.card4 {
+  width: 10rem;
+  height: 8rem;
+  text-align: center;
+  border-radius: 15px;
+  cursor: pointer;
+  background-color: #f6946d;
+}
+.cards {
+  transition: transform 0.3s ease;
+}
+.cards:hover {
+  transform: scale(1.05);
+}
